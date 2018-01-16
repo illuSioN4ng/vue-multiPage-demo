@@ -17,6 +17,8 @@
 
 **`pages` 文件夹下 每个文件夹对应每个页面，文件夹名称即为页面名称，内部html、js均需统一名称**
 
+前端路由：`webpack.dev.conf.js` 的 `historyApiFallback` 中配置 ([更多配置点击](https://github.com/bripkens/connect-history-api-fallback))，或者直接访问 `localhost:8080/index.html`(对应pages文件夹下每个文件夹对应一个 `HTML` 页面)
+
 > 其他配置 可查看 webpack 配置，并定制
 
 ## Build Setup
